@@ -21,18 +21,18 @@ const Navbar = () => {
 
           {/* Right side - Home, FAQs, and Git Icon */}
           <div className="flex items-center space-x-8">
-            <a href="#home" className="font-bold text-2xl">
+            <a href="#home" className="font-semibold text-2xl">
               Home
             </a>
-            <a href="#faqs" className="font-bold text-2xl">
+            <a href="#faqs" className="font-semibold text-2xl">
               FAQs
             </a>
-            <img src="/giticon.webp" alt="FAQs Icon" className="h-12 w-auto" />
+            <img src="/giticon.webp" alt="FAQs Icon" className="h-10 w-auto" />
           </div>
         </div>
 
         {/* Bottom row - Links */}
-        <div className="flex space-x-12 mt-3">
+        <div className="flex space-x-12 mt-8 ml-4">
           {[
             { id: "about", label: "About Us", Icon: IoBookOutline },
             { id: "projects", label: "Projects", Icon: LuTable2 },

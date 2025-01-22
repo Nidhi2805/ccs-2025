@@ -8,7 +8,7 @@ const ProjectPage = () => {
       <div className="fixed left-12 p-6 text-white mt-48">
         <h1 className="text-5xl font-bold mb-6">Projects</h1>
         <hr className="border-t-2 border-gray-500 mb-6" />
-        <p className="text-xl mb-6">
+        <p className="text-xl mb-6 text-gray-400">
           Lorem ipsum about projects karo<br /> projects 
           lorem nahi ipsum nahi projects <br />lorem ipsum
         </p>
@@ -88,7 +88,7 @@ const ProjectPage = () => {
                 <img 
                   src="giticon.webp" 
                   alt="Project Preview"
-                  className="w-[10%] h-auto rounded-lg  ml-4"
+                  className="w-[8%] h-auto rounded-lg  ml-4"
                 />
               </div>
             </div>
